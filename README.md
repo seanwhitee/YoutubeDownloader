@@ -36,3 +36,6 @@ streamlit run Main.py
 ```
 python3 Main.py
 ```
+
+## License
+[MIT](https://github.com/seanwhitee/YoutubeDownloader/blob/main/license)
