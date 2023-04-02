@@ -1,7 +1,7 @@
 # YoutubeDownloader 
 
 [![Made with streamlit](https://img.shields.io/badge/Made%20with-streamlit-orange)](https://streamlit.io/)
-[![MIT License](https://img.shields.io/badge/license-MIT-red)]()
+[![MIT License](https://img.shields.io/badge/license-MIT-red)](https://github.com/seanwhitee/YoutubeDownloader/blob/main/license)
 [![Made with python](https://img.shields.io/badge/Made%20with-Python-brightgreen)](https://www.python.org/)
 
 ## About
