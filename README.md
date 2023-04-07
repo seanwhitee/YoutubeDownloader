@@ -32,8 +32,11 @@ pip install streamlit
 ```bash
 streamlit run Main.py
 ```
-- If you want to run with python script.
-```
+- If you want to run with python script
+- Modify the code  in the Main.py file. (using terminal based input instead of streamlit brower based input).
+- And using following command to run the script.
+
+```bash
 python3 Main.py
 ```
 
