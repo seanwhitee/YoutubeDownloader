@@ -16,15 +16,14 @@ def main():
         
         submitted = st.form_submit_button("Submit")
         if submitted:
-            try:
-                # Create youtube object
-                yt = YouTube(url, use_oauth=True, allow_oauth_cache=True)
-                stream = yt.streams.get_highest_resolution()
-                stream.download(f"{download_path}")
-                st.success(f"Successfully download {yt.title} to {download_path}")
+            
+            # Create youtube object
+            yt = YouTube(url)
+            stream = yt.streams.get_highest_resolution()
+            stream.download(f"{download_path}")
+            st.success(f"Successfully download {yt.title} to {download_path}")
                 
-            except Exception as e:
-                st.error(e)
+            
                 
 if __name__ == '__main__':
     main()
