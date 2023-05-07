@@ -18,7 +18,7 @@ def main():
         if submitted:
             
             # Create youtube object
-            yt = YouTube(url)
+            yt = YouTube(url, use_oauth=True, allow_oauth_cache=True)
             stream = yt.streams.get_highest_resolution()
             stream.download(f"{download_path}")
             st.success(f"Successfully download {yt.title} to {download_path}")
